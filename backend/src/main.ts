@@ -14,7 +14,6 @@ class Application {
 
     this.DEV_MODE = process.env.NODE_ENV !== "production";
     this.PORT = process.env.PORT;
-    console.log(process.env.PORT);
     process.env
   }
 
